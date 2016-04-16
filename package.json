@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha ./test/index.js",
-    "build": "./node_modules/.bin/babel ./index.js -o ./test/dist.js -w"
+    "build": "./node_modules/.bin/babel src/index.js -o index.js"
   },
   "keywords": [
     "supermemo",
