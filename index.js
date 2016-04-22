@@ -21,7 +21,7 @@ exports.default = function (quality, lastSchedule, lastFactor) {
     } else {
         if (quality < 3) {
             newFac = lastFactor;
-            curSchedule = lastSchedule;
+            curSchedule = null;
         } else {
             newFac = calcFactor(lastFactor, quality);
 
